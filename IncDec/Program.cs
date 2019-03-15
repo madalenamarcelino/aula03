@@ -13,8 +13,9 @@ namespace IncDec
 
 
             c = a++ + b++;
+            d = ++a - b++;
 
-            Console.WriteLine("O valor de C e =" + c);
+            Console.WriteLine("O valor de C e = " + c + " e o valor de D e = " + d);
         }
     }
 }
