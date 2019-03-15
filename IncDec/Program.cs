@@ -6,7 +6,15 @@ namespace IncDec
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int a = 2;
+            int b = -5;
+            int c;
+            int d;
+
+
+            c = a++ + b++;
+
+            Console.WriteLine("O valor de C e =" + c);
         }
     }
 }
